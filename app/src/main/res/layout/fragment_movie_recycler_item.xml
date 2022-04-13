@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemContainer"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/marginHorizontal"
+    android:layout_marginVertical="@dimen/marginHorizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_movie"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height"
+        android:scaleType="centerInside"
+        android:src="@drawable/batman_begin"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_name_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Темный рыцарь: возрождение легенды"
+        android:textSize="@dimen/textSize"
+        tools:ignore="MissingConstraints"/>
+
+</LinearLayout>

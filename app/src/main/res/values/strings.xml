@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="local_server">Local server</string>
+    <string name="remote_server">Remote server</string>
+    <string name="open">Open</string>
+</resources>
